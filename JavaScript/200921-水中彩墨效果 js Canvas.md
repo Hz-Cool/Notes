@@ -2,11 +2,11 @@
 
 > 默认加载
 
-![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c934bfae2fcf4e86a3b713178d0af186~tplv-k3u1fbpfcp-zoom-1.image)
+![]('../Images/200921Canvas2.gif')
 
 > 鼠标点击滑动
 
-![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/981eaf7a3d594df5b75b28377feb63ed~tplv-k3u1fbpfcp-zoom-1.image)
+![]('../Images/200921Canvas2.gif')
 
 > HTML
 
