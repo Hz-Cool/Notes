@@ -14,7 +14,7 @@ object-fit: fill|contain|cover|scale-down|none|initial|inherit;
 
 > 效果图
 
-![](../images/200918-object-fit.png)
+![](https://raw.githubusercontent.com/Hz-Cool/Notes/master/Images/200918-object-fit.png)
 
 > 代码
 
