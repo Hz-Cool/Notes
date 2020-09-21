@@ -2,7 +2,7 @@
 
 > 图
 
-![Image text](../images/Loding_Animetion.png)
+![Image text](https://raw.githubusercontent.com/Hz-Cool/Notes/master/Images/Loding_Animetion.png)
 
 ```html
 <!DOCTYPE html>
