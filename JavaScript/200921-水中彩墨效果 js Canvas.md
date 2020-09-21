@@ -2,11 +2,11 @@
 
 > 默认加载
 
-![](../Images/200921Canvas2.gif)
+![](../Images/200921Canvas1.gif)
 
 > 鼠标点击滑动
 
-![](https://github.com/Hz-Cool/Notes/blob/master/Images/200921Canvas1.gif?raw=true)
+![](../Images/200921Canvas2.gif)
 
 > HTML
 
