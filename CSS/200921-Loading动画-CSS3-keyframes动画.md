@@ -2,7 +2,7 @@
 
 > 图
 
-![Image text](../Images/Loding_Animetion.png)
+![Image text](../Images/Loding_Animation.png)
 
 ```html
 <!DOCTYPE html>
