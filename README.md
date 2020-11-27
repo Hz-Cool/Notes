@@ -9,3 +9,10 @@
 
 - `怕什么真理无穷,进一寸有一寸的欢喜！`
 - `吾生也有涯,而知也无涯,以有涯随无涯,殆已！`
+
+
+> License
+
+Copyright (c) min Corporation. All rights reserved.
+
+Licensed under the [MIT](LICENSE.txt) license.
