@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2018 - present Hz-Cool Corporation
+Copyright (c) 2020 - present Hz-Cool Corporation
 
 All rights reserved.
 
