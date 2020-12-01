@@ -13,6 +13,6 @@
 
 > License
 
-Copyright (c) min Corporation. All rights reserved.
+Copyright (c) HZ Corporation. All rights reserved.
 
 Licensed under the [MIT](LICENSE.txt) license.
