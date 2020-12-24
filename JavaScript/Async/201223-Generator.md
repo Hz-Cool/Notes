@@ -86,3 +86,8 @@ g.throw("出错了");
   - 携程切换是在一个线程内进行的
 
 <br/><br/>
+
+> ## 参见
+
+- [阮一峰的网络日志 - Generator](http://www.ruanyifeng.com/blog/2015/04/generator.html)
+- [异步编程那些事](https://yanhaijing.com/javascript/2017/08/02/talk-async/)
