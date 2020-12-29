@@ -45,7 +45,7 @@ Redux 是一种机制，可以在同一个地方查询状态、改变状态、�
 
 > > Store
 
-Store 是保存数据的地方，是一个容器，整个应用只能有一个 Store
+**Store 是保存数据的地方**，也是一个容器，整个应用只能有一个 Store
 
 Redux 提供 `createStore` 函数用来生成 Store
 <br/>
@@ -62,7 +62,7 @@ const store = createStore(fn);
 
 `State` 对象包含所有数据。
 <br/>
-如果想要得到某个时点的数据，就要对 Store 生成快照，这种时点数据集合叫做 `State`
+**如果想要得到某个时点的数据，就要对 Store 生成快照，这种时点数据集合叫做 `State`**
 
 当前时刻 State 可以通过 `store.getState()` 得到
 
@@ -83,9 +83,9 @@ State 变化会导致 View 的变化，但用户接触不到 State，用户只�
 <br/>
 所以 State 的变化必须是 View 导致的
 <br/>
-Active 就是 View 发出的通知，表示 State 应该要发生变化
+Action 就是 View 发出的通知，表示 State 应该要发生变化
 
-Active 是一个对象，其中 `type` 是必须的，表示 Action 的名称，其他属性可自由定义-[社区参考规范](https://github.com/acdlite/flux-standard-action)
+Action 是一个对象，其中 `type` 是必须的，表示 Action 的名称，其他属性可自由定义-[社区参考规范](https://github.com/acdlite/flux-standard-action)
 
 ```javascript
 const action = {
@@ -96,7 +96,7 @@ const action = {
 
 上述代码中，Active 的名称是 `ADD_TODO` ，它携带的信息是字符串 `Learn Redux`
 <br/>
-可以这样理解：Active 描述了当前发生的事情。也是改变 State 的唯一方式。还可以把数据传输到 Store
+可以这样理解：**Active 描述了当前发生的事情。也是改变 State 的唯一方式。还可以把数据传输到 Store**
 
 <br/><br/>
 
@@ -123,7 +123,7 @@ const action = addTodo("Learn Redux");
 
 > > store.dispatch()
 
-`store.dispatch()` 是 View 发出 Action 的唯一方法
+**`store.dispatch()` 是 View 发出 Action 的唯一方法**
 
 ```javascript
 import { createStore } from "redux";
@@ -147,9 +147,9 @@ store.dispatch(addTodo("Learn Redux"));
 
 > > Reducer
 
-Store 收到 Action 后，必须给出一个新的 State，View 才会发生变化
+**Store 收到 Action 后，必须给出一个新的 State，View 才会发生变化
 <br/>
-这种 State 的计算过程叫做 Reducer
+这种 State 的计算过程叫做 Reducer**
 
 Reducer 是一个函数，它接受 Action 和当前 State 作为参数，返回一个新的 State
 
@@ -170,7 +170,7 @@ const state = reducer(1, {
 });
 ```
 
-上述代码中 `reducer` 函数收到名为 `ADD` 的 Action 后返回一个新的计算结果 State
+上述代码中 `reducer` 函数收到名为 `ADD` 的 Action 后，返回一个新的计算结果 State
 <br/>
 实际应用中，Reducer 函数并不会手动调用，`store.dispatch`方法会触发 Reducer 的自动执行
 <br/>
@@ -403,9 +403,9 @@ function reducer(state = {}, action) {
 }
 ```
 
-总之 `combineReducers()` 做的就是产生一个整体的 Reducer 函数
+**总之 `combineReducers()` 做的就是产生一个整体的 Reducer 函数
 <br/>
-该函数根据 State 的 Key 去执行对应子 Reducer 函数，并将返回结果合并成一个大的 State 对象
+该函数根据 State 的 Key 去执行对应子 Reducer 函数，并将返回结果合并成一个大的 State 对象**
 
 combineReduce 的简单实现
 
@@ -458,7 +458,7 @@ const reducer = combineReducers(reducers);
   let nextState = todoApp(previousState, action);
   ```
 
-  Store 一旦有变化,Store 就会调用监听函数
+  Store 一旦有变化，Store 就会调用监听函数
 
   ```javascript
   // 设置监听函数
@@ -467,7 +467,7 @@ const reducer = combineReducers(reducers);
 
   listener 可以通过 store.getState() 得到当前状态
   <br/>
-  如果使用的时 React,则触发重新渲染 View
+  如果使用的是 React，则触发重新渲染 View
 
   ```javascript
   function listerner() {
