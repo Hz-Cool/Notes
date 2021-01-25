@@ -93,3 +93,10 @@
 ## System
 
 - [201207-TCP_IP](https://hz-cool.github.io/Notes/System/201207-TCP_IP)
+
+
+## 数据结构
+
+- [210118-简单递归](https://hz-cool.github.io/Notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/210118-%E7%AE%80%E5%8D%95%E9%80%92%E5%BD%92)
+
+- [210122-尾调用优化，尾递归](https://hz-cool.github.io/Notes/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/210122-%E5%B0%BE%E8%B0%83%E7%94%A8%E4%BC%98%E5%8C%96%EF%BC%8C%E5%B0%BE%E9%80%92%E5%BD%92)
