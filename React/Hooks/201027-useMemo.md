@@ -60,7 +60,7 @@ function useMemo<T>(factory: () => T, deps: DependencyList | undefined): T;
 - 并不会绝对优化，而是一种成本的交换
 ---
 - 闭包是一个特殊的对象
-    - 它由两部分著称，执行上下文A以及在A中创建的函数B
+    - 它由两部分组成，执行上下文A以及在A中创建的函数B
     - 当B执行时，如果访问了A中变量对象，那么闭包就会产生
 
 
